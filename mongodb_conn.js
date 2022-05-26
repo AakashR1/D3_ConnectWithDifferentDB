@@ -6,7 +6,7 @@
 
 const mongodb  = require('mongodb');
 async function main() {
-    const client = new mongodb.MongoClient('mongodb+srv://aakash:aakash1234@cluster0.gmwvx.mongodb.net/MulterPractise?retryWrites=true&w=majority');
+    const client = new mongodb.MongoClient(url);
     try {
         await client.connect();
         console.log("connected");
