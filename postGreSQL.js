@@ -1,7 +1,7 @@
 const pg = require('pg')
 const client = new pg.Client({
   user: "postgres",
-  password: "Aakash@1234",
+  password: "",
   database: "practiceCRUD",
   host: "localhost",
   dialect: "postgres",
